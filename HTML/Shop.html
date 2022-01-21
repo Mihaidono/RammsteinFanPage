@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="slide.css">
+</head>
+<body>
+    <img id="Rr" src="Rammsteinwp (2).jpg" alt="Logo">
+    <header>
+        <div>
+            <a href="Main.html"><img src="logoname.PNG" alt="logoname" id="mainbiglogo"></a>
+        </div>
+        
+        <div class="social">
+            <a href="https://apps.apple.com/de/app/rammstein/id1450388382" target="_blank"><img src="apple.PNG" alt="Applestore"></a>
+            <a href="https://play.google.com/store/apps/details?id=de.rammstein.app" target="_blank"><img src="playstore.PNG" alt="Googlestore"></a>
+            <a href="https://www.youtube.com/channel/UCYp3rk70ACGXQ4gFAiMr1SQ?sub_confirmation=1" target="_blank"><img src="youtube.PNG" alt="Youtube"></a>
+            <a href="https://www.instagram.com/rammsteinofficial/" target="_blank"><img src="instagram.PNG" alt="Instagram"></a>
+            <a href="https://www.facebook.com/Rammstein" target="_blank"><img src="facebook.PNG" alt="Facebook"></a>
+            <a href="https://twitter.com/RSprachrohr" target="_blank"><img src="twitter.PNG" alt="Twitter"></a>
+        </div>
+    </header>
+    <nav>
+        <ul class="ul1">
+           <a href="News.html"><li>News</li></a>
+           <a href="Live.html"><li>Live</li></a>
+           <a href="History.html"><li>History</li></a>
+           <a href="Shop.html"><li>Shop</li></a>
+           <a href="Members.html"><li>Members</li></a>
+           <a href="Intropage.html"><li>Music</li></a>
+        </ul>
+   </nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <main>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <a href="https://shop.rammstein.de/en/catalog/was-ist-neu.html" target="_blank"><img src="shop3.PNG" style="width:100%"></a>
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <a href="https://shop.rammstein.de/en/catalog/advanced_search_result.html?keywords=baby" target="_blank"><img src="shop1.PNG" style="width:100%"></a>
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <a href="https://shop.rammstein.de/en/showroom/herzeleid-merch" target="_blank"><img src="shop2.PNG" style="width:100%"></a>
+              <div class="text"></div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            
+            <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+        
+    </main>
+    <br>
+    <hr>
+<footer class="container">
+    <div id="div1f">  
+        <img src="Rammsteinwp (2).jpg" alt="RammsteinLogo" id="Lowlogo">
+        <ul class="ul2">
+            <a href="News.html"><li>News</li>
+            <a href="Live.html"><li>Live</li>
+            <a href="History.html"><li>History</li>
+            <a href="Shop.html"><li>Shop</li>
+            <a href="Members.html"><li>Members</li>
+            <a href="Intropage.html"><li>Music</li></a>
+        </ul>
+    </div>
+       <div id="div2f">
+           <p style="display:inline"><a href="https://apps.apple.com/de/app/rammstein/id1450388382" target="_blank"><img src="applest.PNG" alt="Applestoreimg"></a></p>
+           <p style="display:inline"><a href="https://play.google.com/store/apps/details?id=de.rammstein.app" target="_blank"><img src="googlest.PNG" alt="Googlestoreimg"></a></p>
+       </div>
+</footer>
+</body>
+</html>

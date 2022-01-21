@@ -1,0 +1,180 @@
+body{
+    font-family:Lucida Sans Unicode,Lucida Grande,sans-serif ;
+    background:black;
+    margin:0;
+}
+a:hover{
+    color:rgb(218, 189, 137);
+}
+
+a{
+    text-decoration:none;
+    color:whitesmoke;
+}
+nav{
+    color:whitesmoke;
+    position:relative;
+    text-align:center;
+    border-top:solid white;
+    border-bottom:solid white;
+    font-size:200%;
+    width: 100%;
+    top:100px;
+
+    
+}
+.ul1 li{
+    display:inline-block;
+    border-left:solid gray;
+    border-right:solid gray;
+    margin-left:1%;
+    margin-right:1%;
+    text-align: center;
+    padding-left:3%;
+    padding-right:3%;
+    
+}
+#mainbiglogo{
+    display:block;
+    width:50%;
+    position:absolute;
+    left:25%;
+    right:25%;
+    margin:1%;
+
+}
+.social{
+    display:inline-block;
+    position:absolute;
+    top:1%;
+    right:1%;
+}
+h3{
+    color:white;
+    font-size:30px;
+}
+p{
+    color:white;
+}
+div ul{
+    display:inline-block;
+}
+
+.Section{
+     display: inline-block;
+}
+
+.imgap{
+
+    padding-left:15%;
+    padding-top:2%;
+}
+.B1{
+    width:50%;
+    padding-left:3%;
+}
+
+.B2{
+    width: 50%;
+    padding-left:3%;
+}
+.B3{
+    width: 50%;
+    padding-left:3%;
+}
+#Rr{
+    float:left;
+}
+
+.container{
+    display:inline-flex;
+}
+.container div{
+    flex:1;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#appfl{
+    border-left:solid white ;
+    flex:0;
+    padding:2%;
+
+}
+
+.ul2 li {
+    color:white;
+    font-size: 15px;
+    list-style-image: url('arrow.PNG');
+}
+#Lowlogo{
+    width: 55%;
+}
+#iframee {
+    text-align: center;
+    border-bottom:white solid;
+    padding-bottom:2%;
+}
+
+#wikitxt{
+    padding:2%;
+    border-bottom:solid white;
+}
+
+#pphoto{
+    padding:2%;
+    text-align:center;
+}
+
+.container2{
+    display:flex;
+}
+#lindemann img{
+    width:55%;
+}
+#flake img{
+    width:40%;
+}
+#paul img{
+    width:30%;
+}
+#ric img{
+    width:30%;
+}
+#oli img{
+    width:40%;
+}
+#cris img{
+    width:30%;
+}
+.container3{
+    display:flex;
+}
+.container4{
+    display:flex;
+}
+table, th, td {
+    border: 1px solid white;
+    color:white;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+table a{
+    color:red;
+}
+#App2{
+    padding-left: 10%;
+}
+#sidep{
+    padding-right:10%;
+}
+
+#divs{
+    width: 70%;
+    margin-right:auto;
+    margin-left:auto;
+}
+#news {
+    padding-left:3%;
+}

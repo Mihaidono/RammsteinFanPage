@@ -1,0 +1,252 @@
+body{
+    font-family:Lucida Sans Unicode,Lucida Grande,sans-serif ;
+    background:black;
+    margin:0;
+}
+a:hover{
+    color:rgb(218, 189, 137);
+}
+
+a{
+    text-decoration:none;
+    color:whitesmoke;
+}
+nav{
+    color:whitesmoke;
+    position:relative;
+    text-align:center;
+    border-top:solid white;
+    border-bottom:solid white;
+    font-size:200%;
+    width: 100%;
+    top:100px;
+
+    
+}
+.ul1 li{
+    display:inline-block;
+    border-left:solid gray;
+    border-right:solid gray;
+    margin-left:1%;
+    margin-right:1%;
+    text-align: center;
+    padding-left:3%;
+    padding-right:3%;
+    
+}
+#mainbiglogo{
+    display:block;
+    width:50%;
+    position:absolute;
+    left:25%;
+    right:25%;
+    margin:1%;
+
+}
+.social{
+    display:inline-block;
+    position:absolute;
+    top:1%;
+    right:1%;
+}
+h3{
+    color:white;
+    font-size:30px;
+}
+p{
+    color:white;
+}
+div ul{
+    display:inline-block;
+}
+
+.Section{
+     display: inline-block;
+}
+
+.imgap{
+
+    padding-left:15%;
+    padding-top:2%;
+}
+.B1{
+    width:50%;
+    padding-left:3%;
+}
+
+.B2{
+    width: 50%;
+    padding-left:3%;
+}
+.B3{
+    width: 50%;
+    padding-left:3%;
+}
+#Rr{
+    float:left;
+}
+
+.container{
+    display:inline-flex;
+}
+.container div{
+    flex:1;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#appfl{
+    border-left:solid white ;
+    flex:0;
+    padding:2%;
+
+}
+
+.ul2 li {
+    color:white;
+    font-size: 15px;
+    list-style-image: url('arrow.PNG');
+}
+#Lowlogo{
+    width: 55%;
+}
+#iframee {
+    text-align: center;
+    border-bottom:white solid;
+    padding-bottom:2%;
+}
+
+#wikitxt{
+    padding:2%;
+    border-bottom:solid white;
+}
+
+#pphoto{
+    padding:2%;
+    text-align:center;
+}
+
+.container2{
+    display:flex;
+}
+#lindemann img{
+    width:55%;
+}
+#flake img{
+    width:40%;
+}
+#paul img{
+    width:30%;
+}
+#ric img{
+    width:30%;
+}
+#oli img{
+    width:40%;
+}
+#cris img{
+    width:30%;
+}
+.container3{
+    display:flex;
+}
+.container4{
+    display:flex;
+}
+table, th, td {
+    border: 1px solid white;
+    color:white;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+table a{
+    color:red;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+#-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
